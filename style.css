@@ -1,0 +1,78 @@
+@charset "utf-8";
+
+input {
+	width: 300px;
+	height: 25px;
+	margin-top: 5px;
+	margin-left: 20px;
+	margin-bottom: 5px;
+	border-style: none none groove;
+	border-bottom-color: rgba(81,189,167,1.00);
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: small;
+	outline: none;
+}
+select:focus {
+	border-style: none;
+	border: none;
+	border-bottom: 1px solid #aaa;
+	transition: 0.1s ease;
+	outline: none;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: medium;
+	
+
+}
+
+.txt {
+	font-size: large;
+}
+
+form {
+	width: 500px;
+	background-color: rgba(255,255,255,1.00);
+	border-radius: 20px;
+	border-style: outset;
+	border-color: rgba(171,171,171,1.00);
+	box-shadow: 2px 2px 8px #111;
+}
+
+
+
+select {
+	width: 300px;
+	height: 25px;
+	margin-top: 5px;
+	margin-left: 20px;
+	margin-bottom: 5px;
+	border-left-style: none;
+	border-right-style: none;
+	border-bottom-style: groove;
+	border-bottom-width: 2px;
+	border-bottom-color: rgba(81,189,167,1.00);
+	border-top-style: none;
+}
+#submit {
+	width: 100px;
+	height: 30px;
+	background-color: rgba(81,189,167,1.00);
+	float: right;
+}
+span {
+	color: rgba(247,0,4,1.00);
+}
+
+#Fname {
+
+
+}
+input:focus {
+	border: none;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size: medium;
+	color: rgba(0,0,0,1.00);
+	border-bottom: 1px solid #aaa;
+	transition: 0.1s ease;
+	
+			
+}
